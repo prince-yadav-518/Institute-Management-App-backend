@@ -2,7 +2,7 @@ const express=require("express")
 const router=express.Router()
 const cloudinary=require("cloudinary").v2
 require("dotenv").config();
-const User=require("../model/user")
+const User=require("../model/User")
 const mongoose=require("mongoose")
 const bcrypt=require("bcrypt")
 const jwt=require('jsonwebtoken')
